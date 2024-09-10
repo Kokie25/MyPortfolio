@@ -316,7 +316,8 @@ button:disabled {
   }
 
   .descript {
-    margin-left: 20px; /* Remove left margin for better fit */
+    margin-left: 20px;
+    text-align: justify; /* Remove left margin for better fit */
   }
 
   .lang, .lang2, .lang3 {
