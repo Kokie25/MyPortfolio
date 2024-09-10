@@ -255,41 +255,45 @@ button:disabled {
 /* Mobile devices (up to 600px wide) */
 @media (max-width: 600px) {
   .image {
-    height: 10vmin;
-    width: 10vmin;
+    height: 8vmin; /* Adjusted size */
+    width: 8vmin; /* Adjusted size */
   }
 
   .names, .know-me, .skill-h, .projects {
-    font-size: 24px;
+    font-size: 20px; /* Adjusted font size */
   }
 
   .about-me, .here-we-go {
-    font-size: 14px;
+    font-size: 12px; /* Adjusted font size */
     max-width: 90%;
-    padding: 15px;
+    padding: 10px; /* Adjusted padding */
   }
 
   .social-icons {
-    gap: 10px;
+    gap: 8px; /* Adjusted gap */
   }
 
   .icon {
-    width: 10px;
-    height: 10px;
+    width: 15px; /* Adjusted icon size */
+    height: 15px; /* Adjusted icon size */
   }
 
   .tech-skill, .soft-skill {
-    font-size: 1.5rem;
-    padding: 5px 20px;
+    font-size: 1.2rem; /* Adjusted font size */
+    padding: 5px 10px; /* Adjusted padding */
   }
 
   .grid-container, .grid-container2, .grid-container3 {
-    flex-direction: column;
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Arrange items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap if necessary */
+    gap: 10px; /* Add some space between items */
   }
 
   .language-used {
     margin-left: 0;
     width: 100%;
+    position: relative; /* Adjusted to fit within the viewport */
   }
 
   .form, .form2 {
@@ -298,9 +302,10 @@ button:disabled {
   }
 
   .descript {
-    margin-left: 20px;
+    margin-left: 0; /* Removed margin-left for better fit */
   }
 }
+
 
 /* Tablets (between 600px and 900px wide) */
 @media (min-width: 600px) and (max-width: 900px) {
@@ -341,6 +346,7 @@ button:disabled {
   .language-used {
     margin-left: 50px;
     width: auto;
+    position: fixed;
   }
 
   .form, .form2 {
