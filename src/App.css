@@ -297,13 +297,13 @@ button:disabled {
   
 
   .lang, .lang2, .lang3 {
-    width: 20px;
-    height: 20px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
   }
 
   .form, .form2 {
-    width: 90%;
+    width: 50%;
     margin-top: 10px;
   }
 
