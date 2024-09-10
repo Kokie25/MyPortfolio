@@ -229,6 +229,7 @@ button:disabled {
   width: 30px;
   height: 30px;
   padding: 5px;
+  margin-right: 50px;
   border: 1px solid #85afb1;
   border-radius: 50%;
   background-color: #255268;
@@ -236,7 +237,7 @@ button:disabled {
 
 .language-used {
   width: 200px;
-  margin-left: 100px;
+  margin-left: 150px;
   display: flex;
   flex-direction: column;
 }
@@ -247,7 +248,7 @@ button:disabled {
   padding: 10px;
   height: max-content;
   width: 30%;
-  margin-top: 20px;
+  margin-top: 20px
 }
 
 /* Responsive styles */
