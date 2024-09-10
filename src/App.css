@@ -316,7 +316,7 @@ button:disabled {
   }
 
   .descript {
-    margin-left: 50px; /* Remove left margin for better fit */
+    margin-left: 20px; /* Remove left margin for better fit */
   }
 
   .lang, .lang2, .lang3 {
@@ -327,6 +327,11 @@ button:disabled {
 
   p{
     font-size: 15px;
+  }
+
+  .problems{
+    font-size: 12px;
+    padding: 10px;
   }
 
 

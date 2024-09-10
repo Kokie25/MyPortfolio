@@ -136,7 +136,7 @@ function App() {
           </div>
           <div className="image-container">
             <img src={solve} className="lang" alt="solve" />
-            <p>Problem Solving</p>
+            <p className='problems'>Problem Solving</p>
           </div>
           <div className="image-container">
             <img src={reliable} className="lang2" alt="reliable" />
