@@ -256,8 +256,8 @@ button:disabled {
 /* Mobile devices (up to 600px wide) */
 @media (max-width: 600px) {
   .image {
-    height: 80vmax; /* Reduced size for better fit */
-    width: 80vmax; /* Reduced size for better fit */
+    height: 40vmax; /* Reduced size for better fit */
+    width: 40vmax; /* Reduced size for better fit */
   }
 
   .names, .know-me, .skill-h, .projects {
@@ -283,6 +283,10 @@ button:disabled {
   .tech-skill, .soft-skill {
     font-size: 1.2rem; /* Decreased font size */
     padding: 5px 10px; /* Adjusted padding */
+  }
+
+  .repo{
+    margin-left: 20px;
   }
 
   .grid-container, .grid-container2 {
