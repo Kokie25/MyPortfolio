@@ -160,12 +160,23 @@ function App() {
           <div className="language-used">
             <p>Html</p>
           </div>
-        <a href="https://github.com/Kokie25/personal_project" target="_blank" title="View personal project on GitHub">
+        <a href="https://github.com/Kokie25/personal_project"  title="View personal project on GitHub">
         <img src={github} className="repo" alt="Github" />
         </a>
         </div>
-        <div className="form2">
-        <Carousel/>
+        <div className="social-icons">
+          <a href="https://www.linkedin.com/in/koketso-motshana-474a1417a">
+            <img src={icon} className="icon" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/Kokie25">
+            <img src={github} className="icon" alt="Github" />
+          </a>
+          <a href="https://wa.me/0724657504">
+            <img src={whatsapp} className="icon" alt="Whatsapp" />
+          </a>
+          <a href="mailto:kmotshana023@student.wethinkcode.co.za">
+            <img src={email} className="icon" alt="Email" />
+          </a>
         </div>
       </div>
     </div>
