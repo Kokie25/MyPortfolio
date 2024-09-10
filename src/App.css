@@ -255,51 +255,42 @@ button:disabled {
 /* Mobile devices (up to 600px wide) */
 @media (max-width: 600px) {
   .image {
-    height: 20vmin; /* Adjusted size */
-    width: 20vmin; /* Adjusted size */
+    height: 10vmin;
+    width: 10vmin;
   }
 
   .names, .know-me, .skill-h, .projects {
-    font-size: 20px; /* Adjusted font size */
+    font-size: 24px;
   }
 
   .about-me, .here-we-go {
-    font-size: 12px; /* Adjusted font size */
+    font-size: 14px;
     max-width: 90%;
-    padding: 10px; /* Adjusted padding */
+    padding: 15px;
   }
 
   .social-icons {
-    gap: 8px; /* Adjusted gap */
+    gap: 10px;
   }
 
   .icon {
-    width: 15px; /* Adjusted icon size */
-    height: 15px; /* Adjusted icon size */
+    width: 10px;
+    height: 10px;
   }
 
   .tech-skill, .soft-skill {
-    font-size: 1.2rem; /* Adjusted font size */
-    padding: 5px 10px; /* Adjusted padding */
+    font-size: 1.5rem;
+    padding: 5px 20px;
   }
 
   .grid-container, .grid-container2, .grid-container3 {
-    display: flex; /* Use flexbox */
-    flex-direction: row; /* Arrange items horizontally */
-    gap: 10px; /* Add some space between items */
+    flex-direction: row;
   }
 
   .language-used {
     margin-left: 0;
     width: 100%;
-    position: relative; /* Adjusted to fit within the viewport */
-  }
-  
-
-  .lang, .lang2, .lang3 {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+    position: fixed;
   }
 
   .form, .form2 {
@@ -308,9 +299,18 @@ button:disabled {
   }
 
   .descript {
-    margin-left: 40px; 
+    margin-left: 20px;
   }
+
+  .lang, .lang2, .lang3 {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+
 }
+
+
 
 
 /* Tablets (between 600px and 900px wide) */
