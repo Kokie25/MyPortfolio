@@ -255,8 +255,8 @@ button:disabled {
 /* Mobile devices (up to 600px wide) */
 @media (max-width: 600px) {
   .image {
-    height: 30vmin; /* Reduced size for better fit */
-    width: 30vmin; /* Reduced size for better fit */
+    height: 30px; /* Reduced size for better fit */
+    width: 30px; /* Reduced size for better fit */
   }
 
   .names, .know-me, .skill-h, .projects {
@@ -316,7 +316,7 @@ button:disabled {
   }
 
   .descript {
-    margin-left: 20px;
+    margin-left: 25px;
     text-align: justify; /* Remove left margin for better fit */
   }
 
