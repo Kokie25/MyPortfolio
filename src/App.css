@@ -253,10 +253,10 @@ button:disabled {
 /* Responsive styles */
 
 /* Mobile devices (up to 600px wide) */
-@media (max-width: 600px) {
+@media (max-width: 300px) {
   .image {
-    height: 30vmin;
-    width: 30vmin;
+    height: 10vmin;
+    width: 10vmin;
   }
 
   .names, .know-me, .skill-h, .projects {

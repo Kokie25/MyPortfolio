@@ -171,7 +171,7 @@ function App() {
           <a href="https://github.com/Kokie25">
             <img src={github} className="icon" alt="Github" />
           </a>
-          <a href="https://wa.me/0724657504">
+          <a href="https://wa.me/+27724657504">
             <img src={whatsapp} className="icon" alt="Whatsapp" />
           </a>
           <a href="mailto:kmotshana023@student.wethinkcode.co.za">
