@@ -255,8 +255,8 @@ button:disabled {
 /* Mobile devices (up to 600px wide) */
 @media (max-width: 600px) {
   .image {
-    height: 8vmin; /* Reduced size for better fit */
-    width: 8vmin; /* Reduced size for better fit */
+    height: 20vmin; /* Reduced size for better fit */
+    width: 20vmin; /* Reduced size for better fit */
   }
 
   .names, .know-me, .skill-h, .projects {
@@ -316,7 +316,7 @@ button:disabled {
   }
 
   .descript {
-    margin-left: 0; /* Remove left margin for better fit */
+    margin-left: 50px; /* Remove left margin for better fit */
   }
 
   .lang, .lang2, .lang3 {
@@ -326,7 +326,7 @@ button:disabled {
   }
 
   p{
-    font-size: 10px;
+    font-size: 15px;
   }
 
 
