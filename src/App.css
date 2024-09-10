@@ -255,64 +255,80 @@ button:disabled {
 /* Mobile devices (up to 600px wide) */
 @media (max-width: 600px) {
   .image {
-    height: 10vmin;
-    width: 10vmin;
+    height: 8vmin; /* Reduced size for better fit */
+    width: 8vmin; /* Reduced size for better fit */
   }
 
   .names, .know-me, .skill-h, .projects {
-    font-size: 24px;
+    font-size: 18px; /* Decreased font size */
   }
 
   .about-me, .here-we-go {
-    font-size: 14px;
-    max-width: 90%;
-    padding: 15px;
+    font-size: 12px; /* Decreased font size */
+    max-width: 90%; /* Ensure content fits within screen width */
+    padding: 10px; /* Adjusted padding */
+    margin: 0 auto; /* Center align content */
   }
 
   .social-icons {
-    gap: 10px;
+    gap: 8px; /* Adjusted gap for smaller screens */
   }
 
   .icon {
-    width: 10px;
-    height: 10px;
+    width: 20px; /* Increased icon size for visibility */
+    height: 20px; /* Increased icon size for visibility */
   }
 
   .tech-skill, .soft-skill {
-    font-size: 1.5rem;
-    padding: 5px 20px;
+    font-size: 1.2rem; /* Decreased font size */
+    padding: 5px 10px; /* Adjusted padding */
   }
 
   .grid-container, .grid-container2 {
-    display:flex;
-    flex-direction: row;
+    display: flex; /* Use flexbox layout */
+    flex-direction: row; /* Arrange items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap if necessary */
+    gap: 10px; /* Add space between items */
+    justify-content: center; /* Center items horizontally */
+    width: 100%; /* Ensure full-width to fit screen */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
   }
 
-  .grid-container3{
+  .grid-container3 {
     display: grid;
-    grid-row:auto;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive grid layout */
+    gap: 10px; /* Space between grid items */
+    width: 100%; /* Ensure full-width to fit screen */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
   }
 
   .language-used {
-    margin-left: 0;
+    margin: 0; /* Remove margin to fit screen */
     width: 100%;
-    position: fixed;
+    position: relative; /* Adjust position for better fit */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
   }
 
   .form, .form2 {
-    width: 50%;
+    width: 90%; /* Adjusted width to fit better */
     margin-top: 10px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
   }
 
   .descript {
-    margin-left: 20px;
+    margin-left: 0; /* Remove left margin for better fit */
   }
 
   .lang, .lang2, .lang3 {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
+    width: 70px; /* Adjusted size */
+    height: 70px; /* Adjusted size */
+    object-fit: cover; /* Maintain aspect ratio */
   }
+
+  p{
+    font-size: 10px;
+  }
+
 
 }
 
