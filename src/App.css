@@ -285,7 +285,8 @@ button:disabled {
 
   .grid-container, .grid-container2, .grid-container3 {
     display: flex; /* Use flexbox */
-    justify-content: center;
+    flex-direction: column; /* Arrange items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap if necessary */
     gap: 10px; /* Add some space between items */
   }
 
