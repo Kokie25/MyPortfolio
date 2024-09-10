@@ -255,8 +255,8 @@ button:disabled {
 /* Mobile devices (up to 600px wide) */
 @media (max-width: 600px) {
   .image {
-    height: 8vmin; /* Adjusted size */
-    width: 8vmin; /* Adjusted size */
+    height: 20vmin; /* Adjusted size */
+    width: 20vmin; /* Adjusted size */
   }
 
   .names, .know-me, .skill-h, .projects {
@@ -285,8 +285,7 @@ button:disabled {
 
   .grid-container, .grid-container2, .grid-container3 {
     display: flex; /* Use flexbox */
-    flex-direction: column; /* Arrange items horizontally */
-    flex-wrap: wrap; /* Allow items to wrap if necessary */
+    flex-direction: row; /* Arrange items horizontally */
     gap: 10px; /* Add some space between items */
   }
 
@@ -295,6 +294,13 @@ button:disabled {
     width: 100%;
     position: relative; /* Adjusted to fit within the viewport */
   }
+  
+
+  .lang, .lang2, .lang3 {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
 
   .form, .form2 {
     width: 90%;
@@ -302,7 +308,7 @@ button:disabled {
   }
 
   .descript {
-    margin-left: 0; /* Removed margin-left for better fit */
+    margin-left: 40px; 
   }
 }
 
